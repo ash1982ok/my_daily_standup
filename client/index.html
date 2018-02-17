@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Daily Standup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="/css/standup.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+       <div class="standup-wrapper row">
+            <div class="date col-xs-12">
+              <div class="standup-date col-xs-4">Standup</div>
+              <div class="col-xs-8 text-right">
+                <button type="button" class="btn btn-primary tot-tasks">
+                  Tasks <span class="tot-tasks-pending badge badge-light">9</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="form-group">
+                  <label for="taskItem">Task</label>
+                  <input type="text" class="form-control" id="taskItem" placeholder="Enter task">
+                  <button class="btn btn-primary add-task" type="button">Add</button>
+                </div>
+            </div>
+            
+            <div class="result col-xs-12">
+              
+            </div>
+       </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/standup.js"></script>
+  </body>
+</html>
